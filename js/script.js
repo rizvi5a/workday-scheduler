@@ -9,4 +9,11 @@ var currentHour = moment().hours()
     for (var i = 9; i <= 18; i++) {
         console.log(currentHour, localStorage.getItem(i))
         $("#" + i + "-plan").val(localStorage.getItem(i))
+        if(currentHour> i){
+            $("#" + i + "-plan").addClass("bg-primary")     
+        }else if(currentHour == i){
+            $("#" + i + "-plan").addClass("bg-info")     
+        }else{
+            $("#" + i + "-plan").addClass("bg-secondary")     
+        }
     }
