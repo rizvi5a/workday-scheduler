@@ -10,11 +10,14 @@
  
 // Id #-Plan is split into #  and -plan 
 // using JQuery on ("click", function())
-// and changing the " id" attribute of #-plan class
+// on the button of  "saveplan" class "id", 
+// and changing the " id" attribute of #-plan class [0]
 $(".saveplan").on("click", function () {
     var time = $(this).attr("id").split("-")[0];
     var text = $("#" + time + "-plan").val()
 // time and text are stored in local storage 
+// under the concatenated  id and -plan of the clicked saved button
+// 
     console.log("Timer", time, text)
     localStorage.setItem(time, text)
 })
@@ -23,6 +26,7 @@ $(".saveplan").on("click", function () {
 // to use 9:000 to 18:000 hours to get stored text 
 // from local storage area and to chnage the background colors
 // using a for loop from 9 to 18
+// and getting the item  stored in localstorage under concatenated #-plan id.
 var currentHour = moment().hours()
 
     for (var i = 9; i <= 18; i++) {
