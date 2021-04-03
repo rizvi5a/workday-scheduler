@@ -9,13 +9,13 @@
 # and 9-plan to 18-plan , respectively,.
 # Save buttons ids are from 9-btn to 18-btn.
 # Textarea "id" is split using Jquery "split method"
-# then a for loop is used to get stored messages 
-# clicking on save buttons on each time.
-# background textareas' colors are also chnaged
+# then the "for loop" is used to get stored messages 
+# clicking on the save buttons on each time.
+# background textareas' colors are also changed based on current, past and future timings.
 # using CSS past, present and future classes.
 # See detailed comments in the Javascript files on
 # split method and concatenating the # and "-plan" id,
 # and then using this logic for storing and retrieving 
-# messages the local storage.
+# messages from the local storage.
 
 

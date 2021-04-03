@@ -12,6 +12,7 @@
 // using JQuery on ("click", function())
 // on the button of  "saveplan" class "id", 
 // and changing the " id" attribute of #-plan class [0]
+// after spliting at "-" , The [0] element is the time
 $(".saveplan").on("click", function () {
     var time = $(this).attr("id").split("-")[0];
     var text = $("#" + time + "-plan").val()

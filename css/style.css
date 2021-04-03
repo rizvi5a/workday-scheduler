@@ -1,13 +1,17 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
   line-height: 1;
 }
 
+.lead {
+   font-family:sans-serif;
+  color: blueviolet;
+}
 #clock {
 
   color:#ee0505;
-  font-size: large;
+  font-size: 25px;
   background-color: aqua;
   
 }
@@ -49,6 +53,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  
 }
 
 .past {
@@ -62,8 +67,13 @@ textarea {
 }
 
 .future {
-  background-color: #6699a0ab;
+  background-color: #be1084ab;
   color: white;
+}
+h6 {
+  font-size: 25px;
+  color: coral
+  
 }
 
 .saveBtn {
@@ -76,5 +86,5 @@ textarea {
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
