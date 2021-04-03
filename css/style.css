@@ -4,6 +4,14 @@ body {
   line-height: 1;
 }
 
+#clock {
+
+  color:#ee0505;
+  font-size: large;
+  background-color: aqua;
+  
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -44,17 +52,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #ee2222;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #61ff7b;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #6699a0ab;
   color: white;
 }
 
