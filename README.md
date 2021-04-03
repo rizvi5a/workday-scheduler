@@ -6,8 +6,8 @@
 3. Bootstrap col-md-3, col-md-6 and col-md-3 are used for layout and
     to display, time of the day, textarea and save buttons, respectively.
 
-4. Each <div class="row"> conatines time heading <h6> and spanned over 3-columns,
-    then each textarea is spanned over 6-columns and save button over rest of the 12-columns sapn.
+4. Each row conatines time, textarea and save buttons columns, spanned over bootstrap's
+   and 3, and 3 columns respectively.
 
 5. Each textarea has an id in the form of "#-plan" ( from 9:00 am to 6:00 pm ). 
 
